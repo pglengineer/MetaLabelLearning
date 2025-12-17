@@ -3,7 +3,7 @@
 This document summarizes the logical definitions for the 9 major factor categories extracted from the project.
 
 ## 1. Fractional Differentiation
-**Core Concept**: Resolves the issue of memory loss caused by traditional differencing, preserving long-term memory while achieving stationarity.
+**Core Concept**: Core Concept: Resolves the issue of memory loss caused by traditional differencing, preserving long-term memory while achieving stationarity, while simultaneously accounting for the short-term returns and long-term memory of correlated assets.
 *   **Factors**:
     1.  **FracDiff_d0.5**: Fractional differentiation with order $d=0.5$.
     2.  **FracDiff_d0.75**: Fractional differentiation with order $d=0.75$.
@@ -98,3 +98,4 @@ This document summarizes the logical definitions for the 9 major factor categori
 *   **Seasonality (Timestamps)**:
     1.  **Behavior Timestamps**: Normalized time of day for High, Low, Max Volume, Max Turnover.
     2.  **Session Logic**: Interactions between Pre-market, Regular, and After-hours behaviors (e.g., Gap vs Intraday).
+
